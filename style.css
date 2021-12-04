@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    background: #44d88e;
+    display: flex;
+    font-size: 20px;
+}
+.brand{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 35px;
+    text-transform: uppercase;
+    line-height: 80px;
+    margin-left: 30px;
+}
+.nav{
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+    padding: 0 40px;
+}
+.nav > li{
+    margin: 0 15px;
+}
+.nav > li > a{
+    text-decoration: none;
+    color: #ffffff;
+    line-height: 80px;
+}
+.banner{
+    width: 100%;
+    height: 500px;
+    background: #807d7d0e;
+    text-align: center;
+    line-height: 30px;
+}
+.banner-img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+.blog{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    margin: 25px;
+}
+.card h4{
+    text-align: center;
+    text-transform: capitalize;
+    color: #8c8c8f;
+}
+.card img{
+    width: 350px;
+    height: 320px;
+}
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background: #161515;
+    color: #ffffff;
+}
+.f-item{
+    width: 300px;
+    height: 130px;
+    margin-top: 40px;
+    padding: 30px;
+}
+.f-item h4{
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+.f-item p{
+    line-height: 25px;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    line-height: 25px;
+    background-color: #000000;
+    color: #ffffff;
+}
+footer h4{
+    text-transform: capitalize;
+}
+
